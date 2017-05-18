@@ -81,7 +81,7 @@ class App extends Component {
   getPokemon(event){
     console.log('hello')
     var url = 'https://pokeapi.co/api/v2/pokemon/'
-    for(let i = 1; i<15; i++){
+    for(let i = 1; i<152; i++){
       axios.get(url + [i])
       .then((res) =>{
         
